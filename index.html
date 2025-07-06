@@ -66,13 +66,13 @@
             </select>
             <p class="rank" id="rankText">#1 website for AI tools. Used by 60M+ humans.</p>
             <div class="quick-links">
-                <button class="quick-link red">📷 Generate images</button>
-                <button class="quick-link free">🆓 Free tools</button>
+                <button class="quick-link red" id="generateImagesBtn">📷 Generate Images</button>
+                <button class="quick-link free" id="freeToolsBtn">🆓 Free Tools</button>
             </div>
             <div class="nav-tabs">
-                <button class="nav-tab active">▼ Latest</button>
-                <button class="nav-tab">For You</button>
-                <button class="nav-tab">➡️ Trending</button>
+                <button class="nav-tab active" id="latestBtn">▼ Latest</button>
+                <button class="nav-tab" id="forYouBtn">For You</button>
+                <button class="nav-tab" id="trendingBtn">➡️ Trending</button>
             </div>
         </div>
         <div class="featured">
@@ -97,8 +97,11 @@
                 <option value="Writing">Writing</option>
                 <option value="Translation">Translation</option>
                 <option value="Various">Various</option>
+                <option value="Image">Image</option>
+                <option value="Personal">Personal</option>
             </select>
             <input type="text" id="toolUrl" placeholder="URL" required>
+            <input type="checkbox" id="toolFree" name="toolFree"> Free
             <div class="captcha">
                 <input type="text" id="captchaInput" placeholder="Enter CAPTCHA" required>
                 <span id="captchaText"></span>
