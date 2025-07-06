@@ -6,13 +6,10 @@
     "category": "Writing",
     "url": "https://writesonic.com",
     "logo": "logo.png",
-    "tags": [
-      "Writing",
-      "Content Creation",
-      "Marketing"
-    ],
+    "tags": ["Writing", "Content Creation", "Marketing"],
     "date_added": "2025-07-06",
-    "popularity": 4.7
+    "popularity": 4.7,
+    "free": false
   },
   {
     "id": 2,
@@ -21,432 +18,345 @@
     "category": "Translation",
     "url": "https://deepl.com",
     "logo": "logo.png",
-    "tags": [
-      "Translation",
-      "Language",
-      "AI Translator"
-    ],
+    "tags": ["Translation", "Language", "AI Translator"],
     "date_added": "2025-06-20",
-    "popularity": 4.8
+    "popularity": 4.8,
+    "free": true
   },
   {
     "id": 3,
-    "name": "AI Tool 3",
-    "description": "Deskripsi AI Tool 3.",
-    "category": "Various",
-    "url": "https://aitool3.com",
+    "name": "ImageGen Pro",
+    "description": "AI untuk menghasilkan gambar berkualitas tinggi.",
+    "category": "Image",
+    "url": "https://imagegenpro.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 3"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.3
+    "tags": ["Image", "AI Art", "Generation"],
+    "date_added": "2025-07-07",
+    "popularity": 4.9,
+    "free": true
   },
   {
     "id": 4,
-    "name": "AI Tool 4",
-    "description": "Deskripsi AI Tool 4.",
-    "category": "Various",
-    "url": "https://aitool4.com",
+    "name": "Personal Assistant AI",
+    "description": "Asisten pribadi berbasis AI.",
+    "category": "Personal",
+    "url": "https://personalai.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 4"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.4
+    "tags": ["Personal", "Assistant", "AI"],
+    "date_added": "2025-07-05",
+    "popularity": 4.5,
+    "free": false
   },
   {
     "id": 5,
-    "name": "AI Tool 5",
-    "description": "Deskripsi AI Tool 5.",
-    "category": "Various",
-    "url": "https://aitool5.com",
+    "name": "Trending Image Tool",
+    "description": "Alat gambar AI yang sedang tren.",
+    "category": "Image",
+    "url": "https://trendingimage.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 5"
-    ],
+    "tags": ["Image", "Trending", "AI"],
     "date_added": "2025-07-06",
-    "popularity": 4.5
+    "popularity": 4.7,
+    "free": true
   },
   {
     "id": 6,
-    "name": "AI Tool 6",
-    "description": "Deskripsi AI Tool 6.",
-    "category": "Various",
-    "url": "https://aitool6.com",
+    "name": "Free Text Analyzer",
+    "description": "Analisis teks gratis berbasis AI.",
+    "category": "Writing",
+    "url": "https://freetextanalyzer.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 6"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.6
+    "tags": ["Text", "Analysis", "Free"],
+    "date_added": "2025-07-04",
+    "popularity": 4.4,
+    "free": true
   },
   {
     "id": 7,
-    "name": "AI Tool 7",
-    "description": "Deskripsi AI Tool 7.",
+    "name": "Trending Video Editor",
+    "description": "Editor video AI yang sedang tren.",
     "category": "Various",
-    "url": "https://aitool7.com",
+    "url": "https://trendingvideo.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 7"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.7
+    "tags": ["Video", "Trending", "AI"],
+    "date_added": "2025-07-07",
+    "popularity": 4.8,
+    "free": false
   },
   {
     "id": 8,
     "name": "AI Tool 8",
-    "description": "Deskripsi AI Tool 8.",
+    "description": "Alat AI untuk analisis data.",
     "category": "Various",
     "url": "https://aitool8.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 8"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.8
+    "tags": ["AI", "Data Analysis", "Tool"],
+    "date_added": "2025-07-03",
+    "popularity": 4.3,
+    "free": false
   },
   {
     "id": 9,
-    "name": "AI Tool 9",
-    "description": "Deskripsi AI Tool 9.",
-    "category": "Various",
-    "url": "https://aitool9.com",
+    "name": "ImageEnhancer AI",
+    "description": "AI untuk meningkatkan kualitas gambar.",
+    "category": "Image",
+    "url": "https://imageenhancer.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 9"
-    ],
+    "tags": ["Image", "Enhancement", "AI"],
     "date_added": "2025-07-06",
-    "popularity": 4.9
+    "popularity": 4.6,
+    "free": false
   },
   {
     "id": 10,
-    "name": "AI Tool 10",
-    "description": "Deskripsi AI Tool 10.",
-    "category": "Various",
-    "url": "https://aitool10.com",
+    "name": "Personal Scheduler",
+    "description": "Penjadwalan pribadi berbasis AI.",
+    "category": "Personal",
+    "url": "https://personalscheduler.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 10"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.0
+    "tags": ["Personal", "Scheduling", "AI"],
+    "date_added": "2025-07-05",
+    "popularity": 4.2,
+    "free": true
   },
   {
     "id": 11,
     "name": "AI Tool 11",
-    "description": "Deskripsi AI Tool 11.",
+    "description": "Alat AI untuk pembelajaran mesin.",
     "category": "Various",
     "url": "https://aitool11.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 11"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.1
+    "tags": ["AI", "Machine Learning", "Tool"],
+    "date_added": "2025-07-02",
+    "popularity": 4.1,
+    "free": false
   },
   {
     "id": 12,
-    "name": "AI Tool 12",
-    "description": "Deskripsi AI Tool 12.",
+    "name": "Trending Music Generator",
+    "description": "Generator musik AI yang sedang tren.",
     "category": "Various",
-    "url": "https://aitool12.com",
+    "url": "https://trendingmusic.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 12"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.2
+    "tags": ["Music", "Trending", "AI"],
+    "date_added": "2025-07-07",
+    "popularity": 4.5,
+    "free": true
   },
   {
     "id": 13,
     "name": "AI Tool 13",
-    "description": "Deskripsi AI Tool 13.",
-    "category": "Various",
+    "description": "Alat AI untuk desain grafis.",
+    "category": "Image",
     "url": "https://aitool13.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 13"
-    ],
+    "tags": ["Image", "Design", "AI"],
     "date_added": "2025-07-06",
-    "popularity": 4.3
+    "popularity": 4.3,
+    "free": false
   },
   {
     "id": 14,
-    "name": "AI Tool 14",
-    "description": "Deskripsi AI Tool 14.",
-    "category": "Various",
-    "url": "https://aitool14.com",
+    "name": "Personal Health AI",
+    "description": "Asisten kesehatan pribadi berbasis AI.",
+    "category": "Personal",
+    "url": "https://personalhealth.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 14"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.4
+    "tags": ["Personal", "Health", "AI"],
+    "date_added": "2025-07-04",
+    "popularity": 4.7,
+    "free": false
   },
   {
     "id": 15,
     "name": "AI Tool 15",
-    "description": "Deskripsi AI Tool 15.",
+    "description": "Alat AI untuk otomatisasi bisnis.",
     "category": "Various",
     "url": "https://aitool15.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 15"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.5
+    "tags": ["AI", "Automation", "Business"],
+    "date_added": "2025-07-05",
+    "popularity": 4.4,
+    "free": false
   },
   {
     "id": 16,
-    "name": "AI Tool 16",
-    "description": "Deskripsi AI Tool 16.",
-    "category": "Various",
-    "url": "https://aitool16.com",
+    "name": "Free Image Editor",
+    "description": "Editor gambar gratis berbasis AI.",
+    "category": "Image",
+    "url": "https://freeimageeditor.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 16"
-    ],
+    "tags": ["Image", "Editing", "Free"],
     "date_added": "2025-07-06",
-    "popularity": 4.6
+    "popularity": 4.6,
+    "free": true
   },
   {
     "id": 17,
     "name": "AI Tool 17",
-    "description": "Deskripsi AI Tool 17.",
+    "description": "Alat AI untuk analisis pasar.",
     "category": "Various",
     "url": "https://aitool17.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 17"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.7
+    "tags": ["AI", "Market Analysis", "Tool"],
+    "date_added": "2025-07-03",
+    "popularity": 4.2,
+    "free": false
   },
   {
     "id": 18,
-    "name": "AI Tool 18",
-    "description": "Deskripsi AI Tool 18.",
+    "name": "Trending Chatbot",
+    "description": "Chatbot AI yang sedang tren.",
     "category": "Various",
-    "url": "https://aitool18.com",
+    "url": "https://trendingchatbot.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 18"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.8
+    "tags": ["Chatbot", "Trending", "AI"],
+    "date_added": "2025-07-07",
+    "popularity": 4.8,
+    "free": true
   },
   {
     "id": 19,
     "name": "AI Tool 19",
-    "description": "Deskripsi AI Tool 19.",
+    "description": "Alat AI untuk pengolahan video.",
     "category": "Various",
     "url": "https://aitool19.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 19"
-    ],
+    "tags": ["AI", "Video Processing", "Tool"],
     "date_added": "2025-07-06",
-    "popularity": 4.9
+    "popularity": 4.5,
+    "free": false
   },
   {
     "id": 20,
-    "name": "AI Tool 20",
-    "description": "Deskripsi AI Tool 20.",
-    "category": "Various",
-    "url": "https://aitool20.com",
+    "name": "Personal Finance AI",
+    "description": "Asisten keuangan pribadi berbasis AI.",
+    "category": "Personal",
+    "url": "https://personalfinance.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 20"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.0
+    "tags": ["Personal", "Finance", "AI"],
+    "date_added": "2025-07-04",
+    "popularity": 4.3,
+    "free": true
   },
   {
     "id": 21,
     "name": "AI Tool 21",
-    "description": "Deskripsi AI Tool 21.",
+    "description": "Alat AI untuk pengenalan suara.",
     "category": "Various",
     "url": "https://aitool21.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 21"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.1
+    "tags": ["AI", "Voice Recognition", "Tool"],
+    "date_added": "2025-07-05",
+    "popularity": 4.1,
+    "free": false
   },
   {
     "id": 22,
-    "name": "AI Tool 22",
-    "description": "Deskripsi AI Tool 22.",
-    "category": "Various",
-    "url": "https://aitool22.com",
+    "name": "Trending Photo Filter",
+    "description": "Filter foto AI yang sedang tren.",
+    "category": "Image",
+    "url": "https://trendingphotofilter.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 22"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.2
+    "tags": ["Image", "Trending", "Filter"],
+    "date_added": "2025-07-07",
+    "popularity": 4.6,
+    "free": true
   },
   {
     "id": 23,
     "name": "AI Tool 23",
-    "description": "Deskripsi AI Tool 23.",
+    "description": "Alat AI untuk pengolahan data.",
     "category": "Various",
     "url": "https://aitool23.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 23"
-    ],
+    "tags": ["AI", "Data Processing", "Tool"],
     "date_added": "2025-07-06",
-    "popularity": 4.3
+    "popularity": 4.4,
+    "free": false
   },
   {
     "id": 24,
-    "name": "AI Tool 24",
-    "description": "Deskripsi AI Tool 24.",
-    "category": "Various",
-    "url": "https://aitool24.com",
+    "name": "Personal Fitness AI",
+    "description": "Asisten kebugaran pribadi berbasis AI.",
+    "category": "Personal",
+    "url": "https://personalfitness.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 24"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.4
+    "tags": ["Personal", "Fitness", "AI"],
+    "date_added": "2025-07-03",
+    "popularity": 4.7,
+    "free": false
   },
   {
     "id": 25,
     "name": "AI Tool 25",
-    "description": "Deskripsi AI Tool 25.",
+    "description": "Alat AI untuk desain UI/UX.",
     "category": "Various",
     "url": "https://aitool25.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 25"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.5
+    "tags": ["AI", "UI/UX", "Design"],
+    "date_added": "2025-07-05",
+    "popularity": 4.2,
+    "free": false
   },
   {
     "id": 26,
-    "name": "AI Tool 26",
-    "description": "Deskripsi AI Tool 26.",
+    "name": "Free Video Converter",
+    "description": "Konverter video gratis berbasis AI.",
     "category": "Various",
-    "url": "https://aitool26.com",
+    "url": "https://freevideoconverter.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 26"
-    ],
+    "tags": ["Video", "Conversion", "Free"],
     "date_added": "2025-07-06",
-    "popularity": 4.6
+    "popularity": 4.5,
+    "free": true
   },
   {
     "id": 27,
     "name": "AI Tool 27",
-    "description": "Deskripsi AI Tool 27.",
+    "description": "Alat AI untuk pengenalan wajah.",
     "category": "Various",
     "url": "https://aitool27.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 27"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.7
+    "tags": ["AI", "Face Recognition", "Tool"],
+    "date_added": "2025-07-04",
+    "popularity": 4.3,
+    "free": false
   },
   {
     "id": 28,
-    "name": "AI Tool 28",
-    "description": "Deskripsi AI Tool 28.",
+    "name": "Trending Voice AI",
+    "description": "AI suara yang sedang tren.",
     "category": "Various",
-    "url": "https://aitool28.com",
+    "url": "https://trendingvoice.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 28"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.8
+    "tags": ["Voice", "Trending", "AI"],
+    "date_added": "2025-07-07",
+    "popularity": 4.6,
+    "free": true
   },
   {
     "id": 29,
     "name": "AI Tool 29",
-    "description": "Deskripsi AI Tool 29.",
+    "description": "Alat AI untuk analisis sentimen.",
     "category": "Various",
     "url": "https://aitool29.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 29"
-    ],
+    "tags": ["AI", "Sentiment Analysis", "Tool"],
     "date_added": "2025-07-06",
-    "popularity": 4.9
+    "popularity": 4.4,
+    "free": false
   },
   {
     "id": 30,
-    "name": "AI Tool 30",
-    "description": "Deskripsi AI Tool 30.",
-    "category": "Various",
-    "url": "https://aitool30.com",
+    "name": "Personal Travel AI",
+    "description": "Asisten perjalanan pribadi berbasis AI.",
+    "category": "Personal",
+    "url": "https://personaltravel.com",
     "logo": "logo.png",
-    "tags": [
-      "AI",
-      "Tool",
-      "Feature 30"
-    ],
-    "date_added": "2025-07-06",
-    "popularity": 4.0
+    "tags": ["Personal", "Travel", "AI"],
+    "date_added": "2025-07-05",
+    "popularity": 4.8,
+    "free": true
   }
 ]
