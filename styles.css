@@ -241,6 +241,13 @@ h1 {
     margin-bottom: 10px;
 }
 
+.tools-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
 .tool-card {
     display: flex;
     align-items: center;
@@ -298,5 +305,20 @@ footer {
     .quick-link, .nav-tab, .featured-btn {
         font-size: 0.9rem;
         padding: 8px 15px;
+    }
+    .tools-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 601px) {
+    .hero {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .tools-list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
