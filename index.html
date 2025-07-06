@@ -3,138 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ToolVerse Nesia AI - Direktori alat AI terbaik untuk berbagai kebutuhan. Temukan, filter, dan simpan alat favoritmu!">
-    <meta name="keywords" content="AI tools, ToolVerse Nesia AI, VinAI, direktori AI, alat kecerdasan buatan">
-    <meta name="author" content="ToolVerse Nesia AI">
-    <meta property="og:title" content="ToolVerse Nesia AI - Direktori Alat AI">
-    <meta property="og:description" content="Temukan alat AI terbaik untuk kebutuhanmu dengan ToolVerse Nesia AI. Filter, cari, dan simpan favoritmu!">
-    <meta property="og:image" content="https://vinnesia.github.io/VinAI/logo.png">
-    <meta property="og:url" content="https://vinnesia.github.io/VinAI/">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ToolVerse Nesia AI - Direktori Alat AI">
-    <meta name="twitter:description" content="Temukan alat AI terbaik untuk kebutuhanmu dengan ToolVerse Nesia AI. Filter, cari, dan simpan favoritmu!">
-    <meta name="twitter:image" content="https://vinnesia.github.io/VinAI/logo.png">
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F4R7TCVG1V"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-F4R7TCVG1V');
-    </script>
-    <title>ToolVerse Nesia AI - Direktori Alat AI</title>
+    <title>ToolVerse Nesia AI</title>
     <link rel="stylesheet" href="styles.min.css">
-    <link rel="icon" href="favicon.png">
     <link rel="manifest" href="manifest.json">
+    <meta name="description" content="Temukan alat AI terbaik untuk kebutuhan Anda di ToolVerse Nesia AI.">
+    <meta name="theme-color" content="#1a1a2e">
 </head>
-<body class="dark-mode">
+<body>
     <header>
         <div class="top-bar">
-            <span class="menu">☰</span>
-            <span class="site-name">toolverse-nesia.com</span>
-            <span class="tabs">14</span>
-            <span class="actions">+</span>
-            <select id="languageSelect" class="language-select">
-                <option value="id">Bahasa Indonesia</option>
-                <option value="en">English</option>
-            </select>
+            <span class="site-name">ToolVerse Nesia AI</span>
+            <div class="tabs">
+                <span class="menu">☰</span>
+                <select class="language-select" id="languageSelect">
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="actions">
+                <span>⚙️</span>
+            </div>
         </div>
         <div class="mode-toggle">
-            <span id="modeText">Free mode</span>
+            <span id="modeText">Mode</span>
             <label class="switch">
-                <input type="checkbox" id="freeMode">
+                <input type="checkbox">
                 <span class="slider round"></span>
             </label>
         </div>
         <div class="spotlight">
-            <span id="spotlightText">Spotlight:</span>
-            <button class="spotlight-btn">Voice to Notion (Notion assistant...)</button>
+            <button class="spotlight-btn"><span id="spotlightText">Spotlight</span></button>
         </div>
     </header>
     <main>
-        <div class="hero">
-            <p class="tagline" id="taglineText">*TAAFT.com for short</p>
-            <h1 id="heroText">ToolVerse Nesia AI</h1>
-            <p class="stats" id="statsText">38,345 AI tools for 13,581 tasks and 4,998 jobs</p>
+        <section class="hero">
+            <h1 id="heroText">Selamat Datang di ToolVerse Nesia AI</h1>
+            <p class="tagline" id="taglineText">Temukan alat AI terbaik untuk kebutuhan Anda.</p>
+            <p class="stats" id="statsText">0 AI tools for 0 tasks and 0 jobs</p>
+            <p class="rank" id="rankText">Peringkat #1 di Indonesia untuk alat AI.</p>
             <div class="search-bar">
-                <input type="text" id="searchInput" placeholder="Search...">
+                <input type="text" id="searchInput" placeholder="Cari alat AI...">
                 <button class="search-icon">🔍</button>
             </div>
-            <select id="categoryFilter">
-                <option value="">All Categories</option>
-            </select>
-            <p class="rank" id="rankText">#1 website for AI tools. Used by 60M+ humans.</p>
             <div class="quick-links">
-                <button class="quick-link red" id="generateImagesBtn">📷 Generate Images</button>
-                <button class="quick-link free" id="freeToolsBtn">🆓 Free Tools</button>
+                <button class="quick-link red" id="generateImagesBtn">Generate Images</button>
+                <button class="quick-link free" id="freeToolsBtn">Free Tools</button>
             </div>
             <div class="nav-tabs">
-                <button class="nav-tab active" id="latestBtn">▼ Latest</button>
+                <button class="nav-tab" id="latestBtn">Latest</button>
                 <button class="nav-tab" id="forYouBtn">For You</button>
-                <button class="nav-tab" id="trendingBtn">➡️ Trending</button>
+                <button class="nav-tab" id="trendingBtn">Trending</button>
             </div>
-        </div>
-        <div class="featured">
-            <button class="featured-btn new" id="featuredBtnText">Read: OECD report with TAAFT data</button>
+            <button class="featured-btn" id="featuredBtn"><span id="featuredBtnText">Featured Tools</span></button>
             <div class="released">
-                <span>✈️</span>
-                <span id="releasedText">Just released</span>
+                <span>🔔</span><span id="releasedText">Rilis: 2025</span>
             </div>
-            <div id="toolsList" class="tools-list"></div>
-            <div id="pagination" class="pagination"></div>
-        </div>
-        <div id="bookmarks" class="bookmarks">
-            <h2 id="bookmarksTitle">Favorites</h2>
-            <div id="bookmarksList" class="tools-list"></div>
-        </div>
-        <div class="submit-tool">
-            <h2 id="submitToolTitle">Submit a Tool</h2>
-            <input type="text" id="toolName" placeholder="Tool Name" required>
-            <input type="text" id="toolDesc" placeholder="Description" required>
-            <select id="toolCategory">
-                <option value="">Select Category</option>
-                <option value="Writing">Writing</option>
-                <option value="Translation">Translation</option>
-                <option value="Various">Various</option>
-                <option value="Image">Image</option>
-                <option value="Personal">Personal</option>
-            </select>
-            <input type="text" id="toolUrl" placeholder="URL" required>
-            <input type="checkbox" id="toolFree" name="toolFree"> Free
+        </section>
+        <section class="tools-list" id="toolsList"></section>
+        <div class="pagination" id="pagination"></div>
+        <section class="bookmarks">
+            <h2 id="bookmarksTitle">Bookmarks</h2>
+            <div class="bookmarks-list" id="bookmarksList"></div>
+        </section>
+        <section class="submit-tool">
+            <h2 id="submitToolTitle">Ajukan Alat Anda</h2>
+            <input type="text" id="toolName" placeholder="Nama Alat">
+            <input type="text" id="toolDesc" placeholder="Deskripsi">
+            <input type="text" id="toolCategory" placeholder="Kategori">
+            <input type="url" id="toolUrl" placeholder="URL">
+            <label><input type="checkbox" id="toolFree"> Gratis?</label>
             <div class="captcha">
-                <input type="text" id="captchaInput" placeholder="Enter CAPTCHA" required>
+                <input type="text" id="captchaInput" placeholder="CAPTCHA">
                 <span id="captchaText"></span>
-                <button id="refreshCaptcha">🔄</button>
+                <button id="refreshCaptcha">↻</button>
             </div>
-            <button id="submitToolBtn">Submit</button>
+            <button id="submitToolBtn">Kirim</button>
             <p id="submitStatus"></p>
-        </div>
-        <div class="reviews">
-            <h2 id="reviewsTitle">User Reviews</h2>
+        </section>
+        <section class="reviews">
+            <h2 id="reviewsTitle">Ulasan</h2>
+            <input type="text" id="reviewTool" placeholder="Nama Alat">
+            <input type="text" id="reviewText" placeholder="Ulasan Anda">
+            <input type="number" id="reviewRating" placeholder="Rating (1-5)" min="1" max="5">
+            <button id="submitReviewBtn">Kirim Ulasan</button>
             <div id="reviewsList"></div>
-            <input type="text" id="reviewTool" placeholder="Tool Name" required>
-            <input type="text" id="reviewText" placeholder="Your Review" required>
-            <select id="reviewRating">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-            <button id="submitReviewBtn">Submit Review</button>
-        </div>
-        <a href="tutorial.html" class="tutorial-link" id="tutorialLink">View Tutorials</a>
+        </section>
+        <a href="tutorial.html" class="tutorial-link" id="tutorialLink">Lihat Tutorial</a>
     </main>
     <footer>
-        <button class="footer-btn home">🏠</button>
-        <button class="footer-btn search">🔍</button>
-        <button class="footer-btn chat">💬</button>
-        <div class="social-share">
-            <a href="https://twitter.com/share?url=https://vinnesia.github.io/VinAI/&text=Check%20out%20ToolVerse%20Nesia%20AI!" target="_blank">Twitter</a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://vinnesia.github.io/VinAI/" target="_blank">Facebook</a>
-            <a href="https://www.linkedin.com/shareArticle?url=https://vinnesia.github.io/VinAI/&title=ToolVerse%20Nesia%20AI" target="_blank">LinkedIn</a>
-        </div>
+        <button class="footer-btn" data-social="whatsapp"><span>📱</span></button>
+        <button class="footer-btn" data-social="chat"><span>💬</span></button>
+        <button class="footer-btn" data-social="website"><span>🌐</span></button>
     </footer>
     <script src="script.min.js"></script>
 </body>
