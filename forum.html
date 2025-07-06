@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum - ToolVerse Nesia AI</title>
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span class="site-name">ToolVerse Nesia AI</span>
+            <div class="tabs">
+                <span class="menu">☰</span>
+                <select class="language-select" id="languageSelect">
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="actions">
+                <span>⚙️</span>
+            </div>
+        </div>
+        <div class="mode-toggle">
+            <span id="modeText">Mode</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 id="heroText">Komunitas</h1>
+            <p id="taglineText">Berbagi pengalaman dan tanyakan tentang AI tools.</p>
+            <p id="statsText"></p>
+            <p id="rankText">Mulai diskusi Anda di sini!</p>
+            <div id="forumInput">
+                <input type="text" id="forumPost" placeholder="Tulis postingan">
+                <button id="forumSubmit">Kirim</button>
+            </div>
+            <div id="forumPosts"></div>
+        </section>
+    </main>
+    <footer>
+        <button class="footer-btn" data-social="whatsapp"><span>📱</span></button>
+        <button class="footer-btn" data-social="chat"><span>💬</span></button>
+        <button class="footer-btn" data-social="website"><span>🌐</span></button>
+    </footer>
+    <script src="script.min.js"></script>
+</body>
+</html>
