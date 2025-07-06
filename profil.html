@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - ToolVerse Nesia AI</title>
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span class="site-name">ToolVerse Nesia AI</span>
+            <div class="tabs">
+                <span class="menu">☰</span>
+                <select class="language-select" id="languageSelect">
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="actions">
+                <span>⚙️</span>
+                <button id="loginBtn">Login</button>
+            </div>
+        </div>
+        <div class="mode-toggle">
+            <span id="modeText">Mode</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 id="heroText">Profil Anda</h1>
+            <p id="taglineText">Kelola informasi dan aktivitas Anda.</p>
+            <div id="profileContent"></div>
+        </section>
+    </main>
+    <footer>
+        <button class="footer-btn" data-social="whatsapp" data-tooltip="WhatsApp"><span>📱</span></button>
+        <button class="footer-btn" data-social="chat" data-tooltip="Forum"><span>💬</span></button>
+        <button class="footer-btn" data-social="website" data-tooltip="Website"><span>🌐</span></button>
+        <button id="feedbackBtn" class="featured-btn">Umpan Balik 💬</button>
+    </footer>
+    <script src="script.min.js"></script>
+</body>
+</html>
