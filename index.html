@@ -21,19 +21,20 @@
                 </select>
             </div>
             <div class="actions">
-                <span>⚙️</span>
+                <span class="settings-icon">⚙️</span>
                 <button id="loginBtn">Login</button>
             </div>
         </div>
         <div class="mode-toggle">
             <span id="modeText">Mode</span>
             <label class="switch">
-                <input type="checkbox">
+                <input type="checkbox" id="themeSwitch">
                 <span class="slider round"></span>
             </label>
         </div>
         <div class="spotlight">
             <button class="spotlight-btn"><span id="spotlightText">Spotlight</span></button>
+            <div id="spotlightContent" class="spotlight-content"></div>
         </div>
     </header>
     <main>
@@ -43,6 +44,7 @@
             <p class="stats" id="statsText">0 AI tools for 0 tasks and 0 jobs</p>
             <p class="rank" id="rankText">Peringkat #1 di Indonesia untuk alat AI.</p>
             <div id="siteStats"></div>
+            <div id="dailyTool"></div>
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Cari alat AI...">
                 <button class="search-icon">🔍</button>
