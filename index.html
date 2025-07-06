@@ -16,7 +16,7 @@
     <meta name="twitter:description" content="Temukan alat AI terbaik untuk kebutuhanmu dengan ToolVerse Nesia AI. Filter, cari, dan simpan favoritmu!">
     <meta name="twitter:image" content="https://vinnesia.github.io/VinAI/logo.png">
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F4R7TCVG1V"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -29,7 +29,114 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body class="dark-mode">
-    <!-- ... konten body tetap sama seperti sebelumnya ... -->
+    <header>
+        <div class="top-bar">
+            <span class="menu">☰</span>
+            <span class="site-name">toolverse-nesia.com</span>
+            <span class="tabs">14</span>
+            <span class="actions">+</span>
+            <select id="languageSelect" class="language-select">
+                <option value="id">Bahasa Indonesia</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        <div class="mode-toggle">
+            <span id="modeText">Free mode</span>
+            <label class="switch">
+                <input type="checkbox" id="freeMode">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="spotlight">
+            <span id="spotlightText">Spotlight:</span>
+            <button class="spotlight-btn">Voice to Notion (Notion assistant...)</button>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <p class="tagline" id="taglineText">*TAAFT.com for short</p>
+            <h1 id="heroText">ToolVerse Nesia AI</h1>
+            <p class="stats" id="statsText">38,345 AI tools for 13,581 tasks and 4,998 jobs</p>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button class="search-icon">🔍</button>
+            </div>
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+            </select>
+            <p class="rank" id="rankText">#1 website for AI tools. Used by 60M+ humans.</p>
+            <div class="quick-links">
+                <button class="quick-link red">📷 Generate images</button>
+                <button class="quick-link free">🆓 Free tools</button>
+            </div>
+            <div class="nav-tabs">
+                <button class="nav-tab active">▼ Latest</button>
+                <button class="nav-tab">For You</button>
+                <button class="nav-tab">➡️ Trending</button>
+            </div>
+        </div>
+        <div class="featured">
+            <button class="featured-btn new" id="featuredBtnText">Read: OECD report with TAAFT data</button>
+            <div class="released">
+                <span>✈️</span>
+                <span id="releasedText">Just released</span>
+            </div>
+            <div id="toolsList" class="tools-list"></div>
+            <div id="pagination" class="pagination"></div>
+        </div>
+        <div id="bookmarks" class="bookmarks">
+            <h2 id="bookmarksTitle">Favorites</h2>
+            <div id="bookmarksList" class="tools-list"></div>
+        </div>
+        <div class="submit-tool">
+            <h2 id="submitToolTitle">Submit a Tool</h2>
+            <input type="text" id="toolName" placeholder="Tool Name" required>
+            <input type="text" id="toolDesc" placeholder="Description" required>
+            <select id="toolCategory">
+                <option value="">Select Category</option>
+                <option value="Route Planning">Route Planning</option>
+                <option value="Content Creation">Content Creation</option>
+                <option value="Image Generation">Image Generation</option>
+                <option value="Customer Service">Customer Service</option>
+                <option value="Data Analysis">Data Analysis</option>
+                <option value="Voice Synthesis">Voice Synthesis</option>
+                <option value="Development">Development</option>
+            </select>
+            <input type="text" id="toolUrl" placeholder="URL" required>
+            <div class="captcha">
+                <input type="text" id="captchaInput" placeholder="Enter CAPTCHA" required>
+                <span id="captchaText"></span>
+                <button id="refreshCaptcha">🔄</button>
+            </div>
+            <button id="submitToolBtn">Submit</button>
+            <p id="submitStatus"></p>
+        </div>
+        <div class="reviews">
+            <h2 id="reviewsTitle">User Reviews</h2>
+            <div id="reviewsList"></div>
+            <input type="text" id="reviewTool" placeholder="Tool Name" required>
+            <input type="text" id="reviewText" placeholder="Your Review" required>
+            <select id="reviewRating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button id="submitReviewBtn">Submit Review</button>
+        </div>
+        <a href="tutorial.html" class="tutorial-link" id="tutorialLink">View Tutorials</a>
+    </main>
+    <footer>
+        <button class="footer-btn home">🏠</button>
+        <button class="footer-btn search">🔍</button>
+        <button class="footer-btn chat">💬</button>
+        <div class="social-share">
+            <a href="https://twitter.com/share?url=https://vinnesia.github.io/VinAI/&text=Check%20out%20ToolVerse%20Nesia%20AI!" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://vinnesia.github.io/VinAI/" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://vinnesia.github.io/VinAI/&title=ToolVerse%20Nesia%20AI" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
     <script src="script.min.js"></script>
 </body>
 </html>
