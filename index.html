@@ -22,6 +22,7 @@
             </div>
             <div class="actions">
                 <span>⚙️</span>
+                <button id="loginBtn">Login</button>
             </div>
         </div>
         <div class="mode-toggle">
@@ -41,6 +42,7 @@
             <p class="tagline" id="taglineText">Temukan alat AI terbaik untuk kebutuhan Anda.</p>
             <p class="stats" id="statsText">0 AI tools for 0 tasks and 0 jobs</p>
             <p class="rank" id="rankText">Peringkat #1 di Indonesia untuk alat AI.</p>
+            <div id="siteStats"></div>
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Cari alat AI...">
                 <button class="search-icon">🔍</button>
@@ -55,6 +57,7 @@
                 <button class="nav-tab" id="trendingBtn">Trending</button>
             </div>
             <button class="featured-btn" id="featuredBtn"><span id="featuredBtnText">Featured Tools</span></button>
+            <button id="downloadAppBtn" class="quick-link free">Unduh Aplikasi ⬇️</button>
             <div class="released">
                 <span>🔔</span><span id="releasedText">Rilis: 2025</span>
             </div>
@@ -64,21 +67,6 @@
         <section class="bookmarks">
             <h2 id="bookmarksTitle">Bookmarks</h2>
             <div class="bookmarks-list" id="bookmarksList"></div>
-        </section>
-        <section class="submit-tool">
-            <h2 id="submitToolTitle">Ajukan Alat Anda</h2>
-            <input type="text" id="toolName" placeholder="Nama Alat">
-            <input type="text" id="toolDesc" placeholder="Deskripsi">
-            <input type="text" id="toolCategory" placeholder="Kategori">
-            <input type="url" id="toolUrl" placeholder="URL">
-            <label><input type="checkbox" id="toolFree"> Gratis?</label>
-            <div class="captcha">
-                <input type="text" id="captchaInput" placeholder="CAPTCHA">
-                <span id="captchaText"></span>
-                <button id="refreshCaptcha">↻</button>
-            </div>
-            <button id="submitToolBtn">Kirim</button>
-            <p id="submitStatus"></p>
         </section>
         <section class="reviews">
             <h2 id="reviewsTitle">Ulasan</h2>
@@ -91,9 +79,10 @@
         <a href="tutorial.html" class="tutorial-link" id="tutorialLink">Lihat Tutorial</a>
     </main>
     <footer>
-        <button class="footer-btn" data-social="whatsapp"><span>📱</span></button>
-        <button class="footer-btn" data-social="chat"><span>💬</span></button>
-        <button class="footer-btn" data-social="website"><span>🌐</span></button>
+        <button class="footer-btn" data-social="whatsapp" data-tooltip="WhatsApp"><span>📱</span></button>
+        <button class="footer-btn" data-social="chat" data-tooltip="Forum"><span>💬</span></button>
+        <button class="footer-btn" data-social="website" data-tooltip="Website"><span>🌐</span></button>
+        <button id="feedbackBtn" class="featured-btn">Umpan Balik 💬</button>
     </footer>
     <script src="script.min.js"></script>
 </body>
