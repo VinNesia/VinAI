@@ -20,6 +20,7 @@
             </div>
             <div class="actions">
                 <span>⚙️</span>
+                <button id="loginBtn">Login</button>
             </div>
         </div>
         <div class="mode-toggle">
@@ -33,15 +34,28 @@
     <main>
         <section class="hero">
             <h1 id="heroText">Tutorial</h1>
-            <p id="taglineText">Panduan langkah demi langkah menggunakan alat AI.</p>
-            <p id="statsText"></p>
-            <p id="rankText">Langkah 1: Pilih alat dari daftar.</p>
+            <p id="taglineText">Panduan menggunakan ToolVerse Nesia AI.</p>
+            <div class="tutorial-steps">
+                <details>
+                    <summary>Langkah 1: Cari Alat</summary>
+                    <p>Gunakan kolom pencarian di halaman utama.</p>
+                </details>
+                <details>
+                    <summary>Langkah 2: Jelajahi Kategori</summary>
+                    <p>Pilih tab seperti 'Free Tools' atau 'Trending'.</p>
+                </details>
+                <details>
+                    <summary>Langkah 3: Ajukan Alat</summary>
+                    <p>Isi form pengajuan di bagian 'Ajukan Alat Anda'.</p>
+                </details>
+            </div>
         </section>
     </main>
     <footer>
-        <button class="footer-btn">📱</button>
-        <button class="footer-btn">💬</button>
-        <button class="footer-btn">🌐</button>
+        <button class="footer-btn" data-social="whatsapp" data-tooltip="WhatsApp"><span>📱</span></button>
+        <button class="footer-btn" data-social="chat" data-tooltip="Forum"><span>💬</span></button>
+        <button class="footer-btn" data-social="website" data-tooltip="Website"><span>🌐</span></button>
+        <button id="feedbackBtn" class="featured-btn">Umpan Balik 💬</button>
     </footer>
     <script src="script.min.js"></script>
 </body>
