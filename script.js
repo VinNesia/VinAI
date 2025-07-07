@@ -32,12 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const toolCard = document.createElement('div');
             toolCard.classList.add('tool-card');
             toolCard.innerHTML = `
-                <a href="${tool.url}" target="_blank">
-                    <img src="${tool.logo}" alt="${tool.name} Icon" class="tool-icon">
-                </a>
-                <span class="tool-name">${tool.name}</span>
+                <img src="logo.png" alt="${tool.name} Icon" class="tool-icon">
+                <span class="tool-name">${tool.name} - ${tool.description.substring(0, 20)}...</span>
                 <span class="tool-category">${tool.category}</span>
-                <span class="tool-check">✅</span>
+                <span class="tool-check">âœ…</span>
             `;
             toolsList.appendChild(toolCard);
         });
@@ -58,19 +56,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const toolCard = document.createElement('div');
             toolCard.classList.add('tool-card');
             toolCard.innerHTML = `
-                <a href="${tool.url}" target="_blank">
-                    <img src="${tool.logo}" alt="${tool.name} Icon" class="tool-icon">
-                </a>
-                <span class="tool-name">${tool.name}</span>
+                <img src="logo.png" alt="${tool.name} Icon" class="tool-icon">
+                <span class="tool-name">${tool.name} - ${tool.description.substring(0, 20)}...</span>
                 <span class="tool-category">${tool.category}</span>
-                <span class="tool-check">✅</span>
+                <span class="tool-check">âœ…</span>
             `;
             toolsList.appendChild(toolCard);
         });
     });
 
-    // Toggle free mode (belum ada fungsi tambahan)
+    // Toggle free mode
     freeMode.addEventListener('change', () => {
         console.log('Free mode:', freeMode.checked);
+        // Tambahkan logika tambahan jika diperlukan
     });
 });
